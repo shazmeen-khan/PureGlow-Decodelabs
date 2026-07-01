@@ -1,7 +1,4 @@
-//==============================
 // MOBILE MENU
-//==============================
-
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
 const menuIcon = document.querySelector(".menu-btn i");
@@ -27,10 +24,7 @@ menuBtn.addEventListener("click", () => {
 
 });
 
-//==============================
 // CLOSE MENU AFTER CLICK
-//==============================
-
 document.querySelectorAll(".nav-links a").forEach(link => {
 
     link.addEventListener("click", () => {
@@ -46,10 +40,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 
 });
 
-//==============================
 // CLOSE MENU OUTSIDE CLICK
-//==============================
-
 document.addEventListener("click", function(e){
 
     if(!navLinks.contains(e.target) && !menuBtn.contains(e.target)){
@@ -65,10 +56,8 @@ document.addEventListener("click", function(e){
 
 });
 
-//==============================
-// STICKY HEADER
-//==============================
 
+// STICKY HEADER
 const header = document.querySelector("header");
 
 window.addEventListener("scroll",()=>{
@@ -87,10 +76,7 @@ window.addEventListener("scroll",()=>{
 
 });
 
-//==============================
 // BACK TO TOP
-//==============================
-
 const backTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll",()=>{
@@ -121,10 +107,7 @@ backTop.onclick=()=>{
 
 };
 
-//==============================
 // ACTIVE NAVBAR LINK
-//==============================
-
 const sections=document.querySelectorAll("section");
 const navItems=document.querySelectorAll(".nav-links a");
 
@@ -160,10 +143,8 @@ link.classList.add("active");
 
 });
 
-//==============================
-// SMOOTH SCROLL
-//==============================
 
+// SMOOTH SCROLL
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 
 anchor.addEventListener("click",function(e){
@@ -186,10 +167,7 @@ behavior:"smooth"
 
 });
 
-//==============================
 // REVEAL ANIMATION
-//==============================
-
 const revealElements=document.querySelectorAll(
 
 ".feature-box,.category-card,.product-card,.arrival-card,.why-card,.review-card,.blog-card,.contact-box"
@@ -230,10 +208,7 @@ window.addEventListener("scroll",reveal);
 
 reveal();
 
-//==============================
 // NEWSLETTER FORM
-//==============================
-
 const newsletter=document.querySelector(".newsletter form");
 
 if(newsletter){
@@ -262,10 +237,7 @@ this.reset();
 
 }
 
-//==============================
 // CONTACT FORM
-//==============================
-
 const contactForm=document.querySelector(".contact form");
 
 if(contactForm){
@@ -282,10 +254,7 @@ this.reset();
 
 }
 
-//==============================
 // BUTTON RIPPLE EFFECT
-//==============================
-
 document.querySelectorAll("button").forEach(button=>{
 
 button.addEventListener("mouseenter",()=>{
@@ -296,16 +265,9 @@ button.style.transition=".35s";
 
 });
 
-//==============================
 // PRELOAD IMAGES
-//==============================
-
 window.addEventListener("load",()=>{
 
 document.body.classList.add("loaded");
 
 });
-
-//==============================
-// END
-//==============================

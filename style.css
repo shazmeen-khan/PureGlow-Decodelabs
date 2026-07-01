@@ -69,9 +69,7 @@ section {
     font-size: 16px;
 }
 
-/* ==================================
-   HEADER & NAVBAR
-================================== */
+/*HEADER & NAVBAR */
 header {
     width: 100%;
     background: #ffffff;
@@ -174,9 +172,7 @@ header {
     color: #222222;
 }
 
-/* ==================================
-   ANIMATIONS & HERO SECTION
-================================== */
+/*ANIMATIONS & HERO SECTION */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -296,9 +292,7 @@ header {
 }
 
 
-/* ==================================
-   CATEGORIES SECTION
-================================== */
+/* CATEGORIES SECTION */
 .category-container {
     max-width: 1400px;
     margin: auto;
@@ -339,9 +333,7 @@ header {
     color: #222222;
 }
 
-/* ==================================
-   PRODUCTS & NEW ARRIVALS
-================================== */
+/* PRODUCTS & NEW ARRIVALS */
 .product-container, .arrival-container {
     max-width: 1400px;
     margin: auto;
@@ -440,9 +432,7 @@ header {
     transform: translateY(-3px);
 }
 
-/* ==================================
-   OFFER SECTION
-================================== */
+/*OFFER SECTION */
 .offer-section {
     max-width: 1400px;
     margin: 80px auto;
@@ -467,9 +457,7 @@ header {
     font-size: 16px;
 }
 
-/* ==================================
-   WHY US SECTION
-================================== */
+/* WHY US SECTION */
 .why-container {
     max-width: 1400px;
     margin: auto;
@@ -515,9 +503,7 @@ header {
     font-size: 14px;
 }
 
-/* ==================================
-   REVIEWS SECTION
-================================== */
+/* REVIEWS SECTION */
 .review-container {
     max-width: 1200px;
     margin: auto;
@@ -560,9 +546,7 @@ header {
     font-style: italic;
 }
 
-/* ==================================
-   BLOG / BEAUTY TIPS
-================================== */
+/* BLOG / BEAUTY TIPS*/
 .beauty-tips {
     background: #fdfafb;
 }
@@ -621,9 +605,7 @@ header {
     text-decoration: underline;
 }
 
-/* ==================================
-   NEWSLETTER
-================================== */
+/*  NEWSLETTER*/
 .newsletter-content {
     max-width: 900px;
     margin: auto;
@@ -675,9 +657,7 @@ header {
     color: #d63384;
 }
 
-/* ==================================
-   CONTACT SECTION
-================================== */
+/*CONTACT SECTION */
 .contact-container {
     max-width: 1200px;
     margin: auto;
@@ -754,9 +734,7 @@ header {
     font-size: 15px;
 }
 
-/* ==================================
-   FOOTER
-================================== */
+/*FOOTER */
 footer {
     background: #111111;
     color: #ffffff;
@@ -831,9 +809,7 @@ footer {
     font-size: 13px;
 }
 
-/* ==================================
-   BACK TO TOP
-================================== */
+/*  BACK TO TOP*/
 #backToTop {
     position: fixed;
     bottom: 30px;
@@ -863,9 +839,7 @@ footer {
     transform: translateY(-5px);
 }
 
-/* ==================================
-   INTERACTIVE CLICK ANIMATIONS
-================================== */
+/*INTERACTIVE CLICK ANIMATIONS */
 .category-card:active,
 .product-card:active,
 .arrival-card:active,
@@ -884,9 +858,8 @@ button:active, .shop-btn:active, .collection-btn:active, .offer-btn:active {
     transition: 0.1s ease;
 }
 
-/* ==================================
-   RESPONSIVE DESIGN (MEDIA QUERIES)
-================================== */
+
+   /* RESPONSIVE DESIGN (MEDIA QUERIES) */
 /* 1920px+ (Ultra Wide) */
 @media (min-width: 1920px) {
     .hero-content h1 {
